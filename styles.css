@@ -1,9 +1,41 @@
+:root{
+    --primary-color:#c59eff;
+    --box-shadow: 10px 10px 10px rgba(0,0,0,0.6)
+
+}
+
 h1{
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+    margin-top: 20px;
     color: cornflowerblue;
+}
+
+h2 {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
 }
 
 img{
     max-width: 300px;
+    margin-left: 50px;
     display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: solid;
+}
+
+.footer{
+    color: black;
+}
+
+p {
+    margin-top: 100px;
 }
