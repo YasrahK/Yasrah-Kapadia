@@ -71,6 +71,9 @@ p {
 .email a{
     color: lightseagreen;
 }
+.project-link a{
+    color: yellowgreen;
+}
 @media (max-width: 576px) {
     h1 {
       font-size: 48px;
