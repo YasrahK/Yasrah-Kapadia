@@ -4,7 +4,10 @@
     --secondary-color:#443b3b;
 
 }
-
+h1,
+h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 h1{
     margin-bottom: 100px;
     margin-top: 20px;
